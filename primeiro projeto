@@ -1,0 +1,21 @@
+print ("covid-19")
+suspeitos = 0 
+while True:
+    tosse = int(input("tosse? \n1. Sim \n2. Nao \nResp.:"))
+    febre = int(input("febre? \n1. Sim \n2. Nao \nResp.:"))
+    resp =  int(input("falta de ar? \n1. Sim \n2. Nao \resp.:"))
+
+    if tosse == 1 and febre == 1 and resp == 1:
+       suspeitos += 1 
+
+resp = input ("ainda há pacientes? [S|N]?")
+if resp.upper() == "N":
+    breakpoint
+
+print ("supeitos de covid 19: {}". format (suspeitos))
+
+
+<!---
+eduardodrigoo/eduardodrigoo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
